@@ -1,0 +1,27 @@
+{
+  // use this to launch the app from the vs code debug/run tab
+  "version": "0.2.0",
+  "configurations": [
+
+    {
+      "name": "Run Dev",
+      "type": "node", 
+      "request": "launch",
+      "cwd": "${workspaceRoot}",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run-script", "dev"
+      ],
+    },
+    {
+      "name": "Run Build test",
+      "type": "node", 
+      "request": "launch",
+      "cwd": "${workspaceRoot}",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run-script", "build:test"
+      ],
+    }
+  ]
+ }
