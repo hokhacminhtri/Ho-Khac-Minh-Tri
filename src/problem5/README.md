@@ -2,6 +2,11 @@
 
 ## I have developed a set of **CRUD interfaces** enabling users to interact with the service. The database for storing resources is **PostgreSQL**, and I use **Sequelize ORM** to simplify database operations, allowing developers to work with JavaScript objects instead of raw SQL queries.
 
+- Programming language: TypeScript
+- Framework: ExpressJS
+- Database: PostgreSQL
+- ORM: Sequelize
+
 ## Run this app:
 
 - Step 1: Clone this source code
@@ -18,8 +23,8 @@ npm run build
 - HTTP method: GET
 - URL: http://localhost:3000/api/resources
 - Result:
-  ![alt text](/images/image01.png)
-  ![alt text](/images/image02.png)
+  ![alt text](./images/image01.png)
+  ![alt text](./images/image02.png)
 
 ### Create a resource
 
@@ -35,8 +40,8 @@ npm run build
 ```
 
 - Result:
-  ![alt text](/images/image03.png)
-  ![alt text](/images/image04.png)
+  ![alt text](./images/image03.png)
+  ![alt text](./images/image04.png)
 
 ### Get details of a resource
 
@@ -50,13 +55,13 @@ npm run build
 - HTTP method: PUT
 - URL: http://localhost:3000/api/resources/:id
 - Result:
-  ![alt text](/images/image06.png)
-  ![alt text](/images/image07.png)
+  ![alt text](./images/image06.png)
+  ![alt text](./images/image07.png)
 
 ### Delete a resource
 
 - HTTP method: DELETE
 - URL: http://localhost:3000/api/resources/:id
 - Result
-  ![alt text](/images/image08.png)
-  ![alt text](/images/image09.png)
+  ![alt text](./images/image08.png)
+  ![alt text](./images/image09.png)
