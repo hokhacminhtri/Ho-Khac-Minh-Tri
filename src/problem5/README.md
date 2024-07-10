@@ -1,6 +1,6 @@
 # Problem 5: A Crude Server
 
-## I have developed a set of CRUD interfaces enabling users to interact with the service. The database for storing resources is PostgreSQL, and I use Sequelize ORM to simplify database operations, allowing developers to work with JavaScript objects instead of raw SQL queries.
+## I have developed a set of **CRUD interfaces** enabling users to interact with the service. The database for storing resources is **PostgreSQL**, and I use **Sequelize ORM** to simplify database operations, allowing developers to work with JavaScript objects instead of raw SQL queries.
 
 ## Run this app:
 
@@ -43,8 +43,7 @@ npm run build
 - HTTP method: GET
 - URL: http://localhost:3000/api/resources/:id
 - Result:
-
-![alt text](/images/image05.png)
+  ![alt text](/images/image05.png)
 
 ### Update resource details
 
